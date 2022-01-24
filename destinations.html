@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+			<html>
+				<head>
+					<meta charset="utf-8">
+					<title>Aung's Web page</title>
+					<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+					<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+					<link href="https://fonts.googleapis.com/css2?family=Island+Moments&display=swap" rel="stylesheet">
+					<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+					<link
+	    rel="stylesheet"
+	    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+	  />
+					<link rel="stylesheet" href="css/styles.css">
+					<link rel="shortcut icon" href="http://wikipedia.com/static/favicon/wikipedia.ico">
+					<link rel="stylesheet" href="../css/checkbox.css">
+				</head>
+				<body class="destination-body">
+					<div class="form-title">
+						<h4>Book your trip</h4>
+					</div>
+					<form class="booking" action="" method="post">
+					<div class="title-box">
+					<label class="checkbox" for="myCheckboxId">
+					  <input class="checkbox__input" type="checkbox" name="myCheckboxName" id="myCheckboxId">	
+					
+					<div class="checkbox__box"></div>
+					Mr
+				</label>
+				<label class="checkbox-2" for="myCheckbox-2">
+					  <input class="checkbox__input-2" type="checkbox" name="myCheckbox-2" id="myCheckbox-2">	
+					
+					<div class="checkbox__box-2"></div>
+					Mrs
+				</label>
+				<label class="checkbox-3" for="myCheckbox-3">
+					  <input class="checkbox__input-3" type="checkbox" name="myCheckbox-3" id="myCheckbox-3">	
+					
+					<div class="checkbox__box-3"></div>
+					Ms
+				</label>
+			</div>
+			<div class="name-container">
+			<label for="name" required>Name</label>
+			<input id="name" name="name" type="text">
+		    </div>
+		    <div class="input-container">
+		    	<label class="input-label" for="email">Email</label>
+		    	<input id="email" type="email" required>
+		    </div>
+		    <div class="input-container">
+		    	<label class="input-label"for="telephone">Telephone</label>
+		    	<input id="telephone" name="telephone" type="telephone">
+		    </div>
+		    <div class="input-container">
+		    	<label class="input-label"for="passport">Passport No</label>
+		    	<input id="passport" type=""name="passport">
+		    </div>
+		    <div class="input-container">
+		    	<label class="input-label"for="start-date">Date started</label>
+		    	<input id="start-date" name="date" type="date" required>
+		    </div>
+		    <div class="input-container">
+		    	<label class="input-label"for="end-date">End date</label>
+		    	<input id="end-date" name="end-date" type="date" required>
+		    </div>
+		    <div class="input-container">
+		    <label class="input-label"for="message">Additional<br>information</label>
+		    <textarea id="message" maxlength="250"></textarea>
+		  </div>
+		  <button type="reset">Reset</button>
+		  <button type="submit">Submit</button>
+				
+			</form>
+			<div class="projector-wrapper">
+			<div class="projector">
+				<span id="projector-img1"></span>
+				<span id="projector-img2"></span>
+				<span id="projector-img3"></span>
+				<span id="projector-img4"></span>
+				<span id="projector-img5"></span>
+
+				<div class="picture-container">
+					<img src="image/mm10.jpg" class="projector-img" alt="mm-picture" width="300px" height="250px">
+					<img src="image/mm11.jpg" class="projector-img"alt="mm-picture" width="300px" height="250px">
+					<img src="image/mm12.jpg"class="projector-img" alt="mm-picture" width="300px" height="250px">
+					<img src="image/mm13.jpg"class="projector-img" alt="mm-picture" width="300px" height="250px">
+					<img src="image/mm14.jpg"class="projector-img" alt="mm-picture" width="300px" height="250px">
+				</div>
+				<div class="projector-navigator">
+				<a href="#projector-img1" class="projector__button projector__button--active"></a>
+				<a href="#projector-img2" class="projector__button"></a>
+				<a href="#projector-img3" class="projector__button"></a>
+				<a href="#projector-img4" class="projector__button"></a>
+				<a href="#projector-img5" class="projector__button"></a>
+			</div>
+			</div>
+		</div>
+		</body>
+		</html>
