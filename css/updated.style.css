@@ -416,7 +416,8 @@ th,td{
 		align-items: center;
 		justify-content: center;
 	}
-	.navigation__item{
+	.navigation li{
 		margin-left: 15px;
+		display: inline-flex;
 	}
 }
