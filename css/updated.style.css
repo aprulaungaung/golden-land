@@ -428,11 +428,12 @@ th,td{
 		flex-direction: column;
 	}
 	.booking{
-		display: block;
+		position: relative;
+		display:inline-block;
 	}
 	.projector-wrapper{
-		position: relative;
-		display: inline-block;
-		left: 30px;
+		position: fixed;
+		display:block;
+		
 	}
 }
