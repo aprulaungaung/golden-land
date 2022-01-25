@@ -433,5 +433,6 @@ th,td{
 	.projector-wrapper{
 		position: relative;
 		display: inline-block;
+		margin-left: 30px;
 	}
 }
