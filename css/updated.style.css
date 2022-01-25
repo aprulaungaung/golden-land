@@ -431,6 +431,7 @@ th,td{
 		display: block;
 	}
 	.projector-wrapper{
+		position: relative;
 		display: inline-block;
 	}
 }
