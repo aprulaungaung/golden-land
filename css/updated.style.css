@@ -430,8 +430,13 @@ th,td{
 	.booking{
 		position: relative;
 		left: 50px;
-		top: 300px;
+		top: 350px;
 		
+	}
+	.form-title {
+		position: relative;
+		left: 50px;
+		top: 330px;
 	}
 	.projector-wrapper{
 		position: fixed;
