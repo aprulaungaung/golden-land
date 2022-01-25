@@ -443,4 +443,7 @@ th,td{
 		display:block;
 		
 	}
+	.title-box{
+		display: flex;
+	}
 }
