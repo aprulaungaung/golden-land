@@ -423,4 +423,13 @@ th,td{
 	.navigation__item{
 		margin-left: 5px;
 	}
+	.destination-body{
+		display: flex;
+	}
+	.booking{
+		display: inline-block;
+	}
+	.projector-wrapper{
+		display: inline-block;
+	}
 }
