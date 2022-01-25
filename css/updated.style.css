@@ -423,4 +423,24 @@ th,td{
 	.navigation__item{
 		margin-left: 5px;
 	}
+	.destination-body{
+		display: flex;
+		flex-direction: column;
+	}
+	.booking{
+		position: relative;
+		left: 50px;
+		top: 350px;
+		
+	}
+	.form-title {
+		position: relative;
+		left: 50px;
+		top: 330px;
+	}
+	.projector-wrapper{
+		position: absolute;
+		display:block;
+		
+	}
 }
