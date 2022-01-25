@@ -429,7 +429,9 @@ th,td{
 	}
 	.booking{
 		position: relative;
-		display:;
+		left: 50px;
+		top: 20px;
+		
 	}
 	.projector-wrapper{
 		position: fixed;
