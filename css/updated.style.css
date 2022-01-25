@@ -411,3 +411,8 @@ th,td{
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
 	/*css*/
 }
+@media all and (max-width: 500px) {
+	.navigation__item{
+		margin-left: 10px;
+	}
+}
