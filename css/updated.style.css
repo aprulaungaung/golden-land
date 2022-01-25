@@ -417,7 +417,7 @@ th,td{
 		justify-content: center;
 	}
 	.navigation li{
-		margin-left: 15px;
+		margin-left: 10px;
 		display: inline-flex;
 	}
 }
