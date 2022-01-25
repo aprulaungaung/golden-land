@@ -429,7 +429,7 @@ th,td{
 	}
 	.booking{
 		position: relative;
-		display:inline-block;
+		display:;
 	}
 	.projector-wrapper{
 		position: fixed;
