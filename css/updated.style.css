@@ -428,7 +428,7 @@ th,td{
 		flex-direction: column;
 	}
 	.booking{
-		display: inline-block;
+		display: block;
 	}
 	.projector-wrapper{
 		display: inline-block;
