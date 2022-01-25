@@ -425,6 +425,7 @@ th,td{
 	}
 	.destination-body{
 		display: flex;
+		flex-direction: column;
 	}
 	.booking{
 		display: inline-block;
