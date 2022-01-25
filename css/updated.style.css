@@ -428,9 +428,9 @@ th,td{
 		flex-direction: column;
 	}
 	.booking{
-		display: inline-flex;
+		display: inline-block;
 	}
 	.projector-wrapper{
-		display: inline-flex;
+		display: inline-block;
 	}
 }
